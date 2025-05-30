@@ -1,0 +1,14 @@
+:root {
+  --photo: rgba(221, 221, 221, 1);
+  --font: rgba(143, 143, 143, 1);
+  --black: rgba(0, 0, 0, 1);
+  --abu-muda: rgba(237, 237, 237, 1);
+  --cccccc: rgba(255, 255, 255, 1);
+  --orange: rgba(248, 170, 124, 1);
+  --pink: rgba(248, 124, 124, 1);
+  --yellow: rgba(255, 214, 119, 1);
+  --color-gray-3: rgba(137, 137, 137, 1);
+  --gray-3: rgba(130, 130, 130, 1);
+  --color-white: rgba(255, 255, 255, 1);
+  --variable-collection-black: rgba(0, 0, 0, 1);
+}
