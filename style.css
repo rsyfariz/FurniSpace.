@@ -1,3 +1,4 @@
+/* PUNYA INDEX */
 .homepage {
   background-color: #ffffff;
   display: flex;
@@ -1041,3 +1042,1133 @@ a {
   --color-white: rgba(255, 255, 255, 1);
   --variable-collection-black: rgba(0, 0, 0, 1);
 }
+
+/* PUNYA INDEX SELESAI */
+
+/* PUNYA PRODUCT */
+.products {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.products .div {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.products .headline {
+  position: relative;
+  width: 100%;
+  height: auto;
+  top: 156px;
+  left: 0;
+}
+
+.products .headline img {
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.products .product {
+  position: absolute;
+  width: 100%;
+  height: 1649px;
+  top: 728px;
+  left: 78px;
+}
+
+.products .filter-option {
+  position: absolute;
+  width: 283px;
+  height: 1421px;
+  top: 0;
+  left: 0;
+}
+
+.products .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "SF Pro Text-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.products .category {
+  position: absolute;
+  width: 283px;
+  height: 374px;
+  top: 78px;
+  left: 0;
+}
+
+.products .overlap {
+  position: relative;
+  width: 281px;
+  height: 374px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--photo);
+}
+
+.products .text-wrapper-2 {
+  position: absolute;
+  top: 21px;
+  left: 25px;
+  font-family: "SF Pro Text-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.products .overlap-group-wrapper {
+  position: absolute;
+  width: 120px;
+  height: 45px;
+  top: 65px;
+  left: 25px;
+}
+
+.products .overlap-group {
+  position: relative;
+  width: 118px;
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--photo);
+}
+
+.products .text-wrapper-3 {
+  position: absolute;
+  top: 13px;
+  left: 36px;
+  font-family: "SF Pro Text-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.products .ellipse {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 16px;
+  left: 14px;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: var(--photo);
+}
+
+.products .living-room {
+  position: absolute;
+  width: 147px;
+  height: 45px;
+  top: 125px;
+  left: 25px;
+}
+
+.products .overlap-2 {
+  position: relative;
+  width: 145px;
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--photo);
+}
+
+.products .kitchen {
+  position: absolute;
+  width: 111px;
+  height: 45px;
+  top: 185px;
+  left: 25px;
+}
+
+.products .overlap-3 {
+  position: relative;
+  width: 109px;
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--photo);
+}
+
+.products .dining-room {
+  position: absolute;
+  width: 147px;
+  height: 45px;
+  top: 245px;
+  left: 25px;
+}
+
+.products .bathroom {
+  position: absolute;
+  width: 127px;
+  height: 45px;
+  top: 305px;
+  left: 25px;
+}
+
+.products .overlap-4 {
+  position: relative;
+  width: 125px;
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--photo);
+}
+
+.products .color {
+  position: absolute;
+  width: 283px;
+  height: 493px;
+  top: 705px;
+  left: 0;
+}
+
+.products .overlap-5 {
+  position: relative;
+  width: 281px;
+  height: 493px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--photo);
+}
+
+.products .orange {
+  position: absolute;
+  width: 120px;
+  height: 45px;
+  top: 125px;
+  left: 25px;
+}
+
+.products .white {
+  position: absolute;
+  width: 102px;
+  height: 45px;
+  top: 185px;
+  left: 25px;
+}
+
+.products .overlap-6 {
+  position: relative;
+  width: 100px;
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--photo);
+}
+
+.products .black {
+  position: absolute;
+  width: 106px;
+  height: 45px;
+  top: 245px;
+  left: 25px;
+}
+
+.products .overlap-7 {
+  position: relative;
+  width: 104px;
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--photo);
+}
+
+.products .grey {
+  position: absolute;
+  width: 102px;
+  height: 45px;
+  top: 305px;
+  left: 25px;
+}
+
+.products .red {
+  position: absolute;
+  width: 102px;
+  height: 45px;
+  top: 365px;
+  left: 25px;
+}
+
+.products .green {
+  position: absolute;
+  width: 102px;
+  height: 45px;
+  top: 425px;
+  left: 25px;
+}
+
+.products .price {
+  position: absolute;
+  width: 283px;
+  height: 193px;
+  top: 482px;
+  left: 0;
+}
+
+.products .overlap-8 {
+  position: relative;
+  width: 281px;
+  height: 193px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--photo);
+}
+
+.products .minimum-price {
+  position: absolute;
+  width: 165px;
+  height: 45px;
+  top: 65px;
+  left: 25px;
+}
+
+.products .overlap-9 {
+  position: relative;
+  width: 163px;
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--photo);
+}
+
+.products .IDR {
+  position: absolute;
+  width: 43px;
+  height: 45px;
+  top: -1px;
+  left: -1px;
+}
+
+.products .div-wrapper {
+  position: relative;
+  width: 41px;
+  height: 45px;
+  background-color: var(--photo);
+}
+
+.products .text-wrapper-4 {
+  position: absolute;
+  top: 14px;
+  left: 9px;
+  font-family: "SF Pro Text-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.products .text-wrapper-5 {
+  position: absolute;
+  top: 13px;
+  left: 49px;
+  font-family: "SF Pro Text-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--photo);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.products .overlap-wrapper {
+  position: absolute;
+  width: 165px;
+  height: 45px;
+  top: 125px;
+  left: 25px;
+}
+
+.products .stock {
+  position: absolute;
+  width: 283px;
+  height: 193px;
+  top: 1228px;
+  left: 0;
+}
+
+.products .out-of-stock {
+  position: absolute;
+  width: 143px;
+  height: 45px;
+  top: 125px;
+  left: 25px;
+}
+
+.products .overlap-10 {
+  position: relative;
+  width: 141px;
+  height: 45px;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: var(--photo);
+}
+
+.products .product-2 {
+  position: absolute;
+  width: 307px;
+  height: 355px;
+  top: 78px;
+  left: 326px;
+}
+
+.products .rectangle {
+  position: absolute;
+  width: 303px;
+  height: 292px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.products .text-wrapper-6 {
+  position: absolute;
+  top: 309px;
+  left: 0;
+  font-family: "SF Pro Text-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.products .text-wrapper-7 {
+  position: absolute;
+  top: 336px;
+  left: 0;
+  font-family: "SF Pro Text-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.products .cart {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  top: 311px;
+  left: 266px;
+  background-color: var(--yellow);
+  border-radius: 18.5px;
+}
+
+.products .shop {
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 8px;
+  left: 8px;
+}
+
+.products .product-3 {
+  position: absolute;
+  width: 307px;
+  height: 355px;
+  top: 78px;
+  left: 653px;
+}
+
+.products .product-4 {
+  position: absolute;
+  width: 307px;
+  height: 355px;
+  top: 78px;
+  left: 980px;
+}
+
+.products .product-5 {
+  position: absolute;
+  width: 307px;
+  height: 355px;
+  top: 482px;
+  left: 326px;
+}
+
+.products .product-6 {
+  position: absolute;
+  width: 307px;
+  height: 355px;
+  top: 482px;
+  left: 653px;
+}
+
+.products .product-7 {
+  position: absolute;
+  width: 307px;
+  height: 355px;
+  top: 482px;
+  left: 980px;
+}
+
+.products .product-8 {
+  position: absolute;
+  width: 307px;
+  height: 355px;
+  top: 886px;
+  left: 326px;
+}
+
+.products .product-9 {
+  position: absolute;
+  width: 307px;
+  height: 355px;
+  top: 886px;
+  left: 653px;
+}
+
+.products .product-10 {
+  position: absolute;
+  width: 307px;
+  height: 355px;
+  top: 886px;
+  left: 980px;
+}
+
+.products .product-11 {
+  position: absolute;
+  width: 307px;
+  height: 355px;
+  top: 1290px;
+  left: 326px;
+}
+
+.products .product-12 {
+  position: absolute;
+  width: 307px;
+  height: 355px;
+  top: 1294px;
+  left: 653px;
+}
+
+.products .product-13 {
+  position: absolute;
+  width: 307px;
+  height: 355px;
+  top: 1294px;
+  left: 980px;
+}
+
+.products .footer {
+  position: absolute;
+  width: 1440px;
+  height: 367px;
+  top: 2688px;
+  left: 0;
+  background-color: transparent;
+}
+
+.products .overlap-11 {
+  position: absolute;
+  width: 1440px;
+  height: 336px;
+  top: 31px;
+  left: 0;
+  background-color: var(--color-white);
+}
+
+.products .stay-updated {
+  width: 294px;
+  height: 90px;
+  left: 1047px;
+  position: absolute;
+  top: 49px;
+}
+
+.products .searchbar {
+  position: absolute;
+  width: 294px;
+  height: 45px;
+  top: 45px;
+  left: 0;
+}
+
+.products .placeholder-wrapper {
+  position: absolute;
+  width: 242px;
+  height: 45px;
+  top: 0;
+  left: 0;
+  background-color: var(--abu-muda);
+}
+
+.products .placeholder {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  font-family: "SF Pro Text-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--gray-3);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.products .carbon-send-alt-wrapper {
+  position: absolute;
+  width: 46px;
+  height: 45px;
+  top: 0;
+  left: 246px;
+  background-color: var(--font);
+}
+
+.products .carbon-send-alt {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 10px;
+  left: 11px;
+}
+
+.products .text-wrapper-8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "SF Pro Text-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.products .stay-connected {
+  width: 200px;
+  height: 149px;
+  left: 787px;
+  position: absolute;
+  top: 49px;
+}
+
+.products .text-wrapper-9 {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  font-family: "SF Pro Text-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--font);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.products .text-wrapper-10 {
+  position: absolute;
+  top: 85px;
+  left: 0;
+  font-family: "SF Pro Text-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--font);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.products .text-wrapper-11 {
+  position: absolute;
+  top: 125px;
+  left: 0;
+  font-family: "SF Pro Text-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--font);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.products .account {
+  position: absolute;
+  width: 111px;
+  height: 189px;
+  top: 49px;
+  left: 614px;
+}
+
+.products .text-wrapper-12 {
+  top: 165px;
+  position: absolute;
+  left: 0;
+  font-family: "SF Pro Text-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--font);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.products .menu {
+  position: absolute;
+  width: 127px;
+  height: 229px;
+  top: 49px;
+  left: 431px;
+}
+
+.products .terms-policy {
+  position: absolute;
+  top: 205px;
+  left: 0;
+  font-family: "SF Pro Text-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--font);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.products .about {
+  position: absolute;
+  width: 270px;
+  height: 237px;
+  top: 49px;
+  left: 102px;
+}
+
+.products .text-wrapper-13 {
+  position: absolute;
+  top: 213px;
+  left: 0;
+  font-family: "SF Pro Text-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--font);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.products .text-wrapper-14 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "SF Pro Text-Heavy", Helvetica;
+  font-weight: 400;
+  color: var(--variable-collection-black);
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.products .p {
+  position: absolute;
+  width: 264px;
+  top: 45px;
+  left: 0;
+  font-family: "SF Pro Text-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--font);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+}
+
+.products .group {
+  position: absolute;
+  width: 243px;
+  height: 24px;
+  top: 133px;
+  left: 0;
+}
+
+.products .text-wrapper-15 {
+  position: absolute;
+  top: 0;
+  left: 28px;
+  font-family: "SF Pro Text-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--font);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.products .phone {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 2px;
+  left: 0;
+}
+
+.products .subtract {
+  position: absolute;
+  width: 16px;
+  height: 18px;
+  top: 1px;
+  left: 2px;
+}
+
+.products .group-2 {
+  position: absolute;
+  width: 198px;
+  height: 24px;
+  top: 173px;
+  left: 0;
+}
+
+.products .vector {
+  position: absolute;
+  width: 1237px;
+  height: 1px;
+  top: 0;
+  left: 102px;
+  object-fit: cover;
+}
+
+.products .service {
+  position: absolute;
+  width: 1151px;
+  height: 88px;
+  top: 2489px;
+  left: 150px;
+}
+
+.products .fast-shipping {
+  position: absolute;
+  width: 239px;
+  height: 88px;
+  top: 0;
+  left: 0;
+}
+
+.products .overlap-group-2 {
+  position: absolute;
+  width: 108px;
+  height: 88px;
+  top: 0;
+  left: 0;
+}
+
+.products .ellipse-2 {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  top: 0;
+  left: 0;
+  background-color: var(--orange);
+  border-radius: 44px;
+}
+
+.products .ellipse-3 {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  top: 0;
+  left: 20px;
+  background-color: var(--yellow);
+  border-radius: 44px;
+}
+
+.products .humbleicons-truck {
+  position: absolute;
+  width: 51px;
+  height: 51px;
+  top: 18px;
+  left: 38px;
+}
+
+.products .text-wrapper-16 {
+  position: absolute;
+  width: 107px;
+  top: 20px;
+  left: 130px;
+  font-family: "SF Pro Text-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.products .high-quality {
+  position: absolute;
+  width: 239px;
+  height: 88px;
+  top: 0;
+  left: 320px;
+}
+
+.products .tabler-trophy {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 20px;
+  left: 40px;
+}
+
+.products .support {
+  position: absolute;
+  width: 240px;
+  height: 88px;
+  top: 0;
+  left: 616px;
+}
+
+.products .overlap-12 {
+  position: absolute;
+  width: 109px;
+  height: 88px;
+  top: 0;
+  left: 0;
+}
+
+.products .ellipse-4 {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  top: 0;
+  left: 21px;
+  background-color: var(--yellow);
+  border-radius: 44px;
+}
+
+.products .humbleicons-support {
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  top: 20px;
+  left: 41px;
+}
+
+.products .text-wrapper-17 {
+  position: absolute;
+  width: 107px;
+  top: 20px;
+  left: 131px;
+  font-family: "SF Pro Text-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.products .returns {
+  position: absolute;
+  width: 237px;
+  height: 88px;
+  top: 0;
+  left: 916px;
+}
+
+.products .overlap-13 {
+  position: absolute;
+  width: 106px;
+  height: 88px;
+  top: 0;
+  left: 0;
+}
+
+.products .ellipse-5 {
+  position: absolute;
+  width: 88px;
+  height: 88px;
+  top: 0;
+  left: 18px;
+  background-color: var(--yellow);
+  border-radius: 44px;
+}
+
+.products .mingcute-refresh {
+  position: absolute;
+  width: 46px;
+  height: 46px;
+  top: 21px;
+  left: 39px;
+}
+
+.products .img {
+  position: absolute;
+  width: 36px;
+  height: 42px;
+  top: 4px;
+  left: 5px;
+}
+
+.products .text-wrapper-18 {
+  position: absolute;
+  width: 107px;
+  top: 20px;
+  left: 128px;
+  font-family: "SF Pro Text-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.products .navbar {
+  position: absolute;
+  width: 1285px;
+  height: 56px;
+  top: 51px;
+  left: 73px;
+}
+
+.products .text-wrapper-19 {
+  position: absolute;
+  top: 2px;
+  left: 0;
+  font-family: "SF Pro Text-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--variable-collection-black);
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.products .text-wrapper-20 {
+  position: absolute;
+  top: 17px;
+  left: 254px;
+  font-family: "SF Pro Text-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.products .text-wrapper-21 {
+  position: absolute;
+  top: 17px;
+  left: 337px;
+  font-family: "SF Pro Text-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.products .text-wrapper-22 {
+  position: absolute;
+  top: 17px;
+  left: 438px;
+  font-family: "SF Pro Text-Medium", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.products .searchbar-2 {
+  position: absolute;
+  width: 507px;
+  height: 56px;
+  top: 0;
+  left: 592px;
+  background-color: var(--abu-muda);
+}
+
+.products .text-wrapper-23 {
+  position: absolute;
+  width: 144px;
+  top: 16px;
+  left: 66px;
+  font-family: "SF Pro Text-Light", Helvetica;
+  font-weight: 300;
+  color: var(--font);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.products .material-symbols {
+  position: absolute;
+  width: 27px;
+  height: 27px;
+  top: 16px;
+  left: 27px;
+}
+
+.products .profile {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 5px;
+  left: 1232px;
+}
+
+.products .shop-2 {
+  position: absolute;
+  width: 43px;
+  height: 43px;
+  top: 6px;
+  left: 1166px;
+}
+
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+} */
+/* a blue color as a generic focus style */
+/* button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+} */
+
+/* :root {
+  --photo: rgba(221, 221, 221, 1);
+  --font: rgba(143, 143, 143, 1);
+  --black: rgba(0, 0, 0, 1);
+  --abu-muda: rgba(237, 237, 237, 1);
+  --cccccc: rgba(255, 255, 255, 1);
+  --orange: rgba(248, 170, 124, 1);
+  --pink: rgba(248, 124, 124, 1);
+  --yellow: rgba(255, 214, 119, 1);
+  --gray-3: rgba(130, 130, 130, 1);
+  --color-white: rgba(255, 255, 255, 1);
+  --variable-collection-black: rgba(0, 0, 0, 1);
+} */
+
+/* PUNYA PRODUCT SELESAI */
