@@ -861,7 +861,7 @@
 
 .products .text-wrapper-13 {
   position: absolute;
-  top: 213px;
+  top: 217px;
   left: 0;
   font-family: "SF Pro Text-Regular", Helvetica;
   font-weight: 400;
@@ -908,7 +908,7 @@
 
 .products .text-wrapper-15 {
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 28px;
   font-family: "SF Pro Text-Regular", Helvetica;
   font-weight: 400;
@@ -923,7 +923,7 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 2px;
+  top: 10px;
   left: 0;
 }
 

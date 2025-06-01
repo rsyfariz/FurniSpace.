@@ -85,7 +85,7 @@
 .homepage .find-comfort-style {
   position: absolute;
   width: 348px;
-  top: 57px;
+  top: 45px;
   left: 43px;
   font-family: "SF Pro Text-Heavy", Helvetica;
   font-weight: 700;
@@ -98,7 +98,7 @@
 .homepage .text-wrapper {
   position: absolute;
   width: 370px;
-  top: 211px;
+  top: 210px;
   left: 43px;
   font-family: "SF Pro Text-Regular", Helvetica;
   font-weight: 400;
@@ -123,6 +123,18 @@
   width: 370px;
   height: 61px;
   background-color: #f8a97c;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.homepage .div-wrapper:hover {
+  background-color: var(--pink);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .homepage .text-wrapper-2 {
@@ -136,6 +148,11 @@
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
+  transition: transform 0.3s ease;
+}
+
+.homepage .div-wrapper:hover .text-wrapper-2 {
+  transform: scale(1.05);
 }
 
 .homepage .rectangle-3 {
@@ -419,19 +436,33 @@
   width: 269px;
   height: 65px;
   background-color: var(--orange);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.homepage .overlap-group-2:hover {
+  background-color: var(--pink);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .homepage .text-wrapper-9 {
-  position: absolute;
-  top: 20px;
-  left: 76px;
   font-family: "SF Pro Text-Medium", Helvetica;
   font-weight: 500;
   color: #ffffff;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
   white-space: nowrap;
+  transition: transform 0.3s ease;
+}
+
+.homepage .overlap-group-2:hover .text-wrapper-9 {
+  transform: scale(1.05);
 }
 
 .homepage .new-collection {
@@ -1012,7 +1043,7 @@
 
 .homepage .text-wrapper-25 {
   position: absolute;
-  top: 213px;
+  top: 217px;
   left: 0;
   font-family: "SF Pro Text-Regular", Helvetica;
   font-weight: 400;
@@ -1059,7 +1090,7 @@
 
 .homepage .text-wrapper-27 {
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 28px;
   font-family: "SF Pro Text-Regular", Helvetica;
   font-weight: 400;
@@ -1074,7 +1105,7 @@
   position: absolute;
   width: 20px;
   height: 20px;
-  top: 2px;
+  top: 10px;
   left: 0;
 }
 
