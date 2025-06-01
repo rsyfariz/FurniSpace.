@@ -376,10 +376,22 @@
 
 .products .product-2 {
   position: absolute;
-  width: 307px;
-  height: 355px;
+  width: 300px;
+  height: 290px;
   top: 78px;
   left: 326px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.products .product-2:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .products .rectangle {
@@ -437,90 +449,222 @@
 
 .products .product-3 {
   position: absolute;
-  width: 307px;
-  height: 355px;
+  width: 300px;
+  height: 290px;
   top: 78px;
   left: 653px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.products .product-3:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .products .product-4 {
   position: absolute;
-  width: 307px;
-  height: 355px;
+  width: 300px;
+  height: 290px;
   top: 78px;
   left: 980px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.products .product-4:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .products .product-5 {
   position: absolute;
-  width: 307px;
-  height: 355px;
+  width: 300px;
+  height: 290px;
   top: 482px;
   left: 326px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.products .product-5:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .products .product-6 {
   position: absolute;
-  width: 307px;
-  height: 355px;
+  width: 300px;
+  height: 290px;
   top: 482px;
   left: 653px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.products .product-6:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .products .product-7 {
   position: absolute;
-  width: 307px;
-  height: 355px;
+  width: 300px;
+  height: 290px;
   top: 482px;
   left: 980px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.products .product-7:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .products .product-8 {
   position: absolute;
-  width: 307px;
-  height: 355px;
+  width: 300px;
+  height: 290px;
   top: 886px;
   left: 326px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.products .product-8:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .products .product-9 {
   position: absolute;
-  width: 307px;
-  height: 355px;
+  width: 300px;
+  height: 290px;
   top: 886px;
   left: 653px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.products .product-9:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .products .product-10 {
   position: absolute;
-  width: 307px;
-  height: 355px;
+  width: 300px;
+  height: 290px;
   top: 886px;
   left: 980px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.products .product-10:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .products .product-11 {
   position: absolute;
-  width: 307px;
-  height: 355px;
+  width: 300px;
+  height: 290px;
   top: 1290px;
   left: 326px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.products .product-11:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .products .product-12 {
   position: absolute;
-  width: 307px;
-  height: 355px;
+  width: 300px;
+  height: 290px;
   top: 1294px;
   left: 653px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.products .product-12:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .products .product-13 {
   position: absolute;
-  width: 307px;
-  height: 355px;
+  width: 300px;
+  height: 290px;
   top: 1294px;
   left: 980px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.products .product-13:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .products .footer {
@@ -564,6 +708,8 @@
   top: 0;
   left: 0;
   background-color: var(--abu-muda);
+  background-color: var(--abu-muda);
+  border: none;
 }
 
 .products .placeholder {
@@ -577,6 +723,9 @@
   letter-spacing: 0;
   line-height: 24px;
   white-space: nowrap;
+  border: none;
+  outline: none;
+  background-color: var(--abu-muda);
 }
 
 .products .carbon-send-alt-wrapper {
@@ -1032,7 +1181,7 @@
   left: 337px;
   font-family: "SF Pro Text-Medium", Helvetica;
   font-weight: 500;
-  color: #000000;
+  color: var(--orange);
   font-size: 18px;
   text-align: center;
   letter-spacing: 0;
@@ -1061,6 +1210,12 @@
   top: 0;
   left: 592px;
   background-color: var(--abu-muda);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  gap: 16px;
 }
 
 .products .text-wrapper-23 {
@@ -1074,6 +1229,9 @@
   font-size: 18px;
   letter-spacing: 0;
   line-height: normal;
+  border: none;
+  outline: none;
+  background-color: var(--abu-muda);
 }
 
 .products .material-symbols {

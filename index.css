@@ -157,10 +157,22 @@
 
 .homepage .celeste-chair {
   position: absolute;
-  width: 403px;
-  height: 522px;
+  width: 398px;
+  height: 440px;
   top: 91px;
   left: 0;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.homepage .celeste-chair:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .homepage .img-2 {
@@ -234,10 +246,22 @@
 
 .homepage .mini-lounge-chair {
   position: absolute;
-  width: 403px;
-  height: 522px;
+  width: 398px;
+  height: 440px;
   top: 0;
   left: 0;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.homepage .mini-lounge-chair:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .homepage .text-wrapper-5 {
@@ -255,26 +279,62 @@
 
 .homepage .deskmat-lamp {
   position: absolute;
-  width: 403px;
-  height: 522px;
+  width: 398px;
+  height: 440px;
   top: 91px;
   left: 880px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.homepage .deskmat-lamp:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .homepage .lucea-gold {
   position: absolute;
-  width: 403px;
-  height: 522px;
+  width: 398px;
+  height: 440px;
   top: 91px;
   left: 440px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.homepage .lucea-gold:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .homepage .lush-green-wall {
   position: absolute;
-  width: 403px;
-  height: 522px;
+  width: 398px;
+  height: 440px;
   top: 654px;
   left: 880px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.homepage .lush-green-wall:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .homepage .img-wrapper {
@@ -289,10 +349,22 @@
 
 .homepage .white-aura-cube {
   position: absolute;
-  width: 403px;
-  height: 521px;
+  width: 400px;
+  height: 398px;
   top: 654px;
   left: 440px;
+  background-color: #ffffff;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.homepage .white-aura-cube:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .homepage .text-wrapper-6 {
@@ -632,7 +704,7 @@
   left: 254px;
   font-family: "SF Pro Text-Medium", Helvetica;
   font-weight: 500;
-  color: #000000;
+  color: var(--orange);
   font-size: 18px;
   text-align: center;
   letter-spacing: 0;
