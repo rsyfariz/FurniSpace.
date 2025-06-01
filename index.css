@@ -675,27 +675,28 @@
   top: 0;
   left: 592px;
   background-color: var(--abu-muda);
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  gap: 16px;
 }
 
 .homepage .text-wrapper-19 {
-  position: absolute;
-  width: 144px;
-  top: 18px;
-  left: 66px;
+  flex: 1;
+  border: none;
+  background: transparent;
+  font-size: 18px;
   font-family: "SF Pro Text-Light", Helvetica;
   font-weight: 300;
   color: var(--font);
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: normal;
+  outline: none;
 }
 
-.homepage .material-symbols {
-  position: absolute;
+.homepage .searchbar .material-symbols {
   width: 27px;
   height: 27px;
-  top: 16px;
-  left: 27px;
 }
 
 .homepage .profile {
@@ -787,6 +788,7 @@
   top: 0;
   left: 0;
   background-color: var(--abu-muda);
+  border: none;
 }
 
 .homepage .placeholder {
@@ -800,6 +802,9 @@
   letter-spacing: 0;
   line-height: 24px;
   white-space: nowrap;
+  border: none;
+  outline: none;
+  background-color: var(--abu-muda);
 }
 
 .homepage .send-wrapper {
