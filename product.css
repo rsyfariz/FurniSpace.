@@ -70,8 +70,9 @@
   width: 281px;
   height: 374px;
   background-color: #ffffff;
-  border: 1px solid;
+  border: 2px solid;
   border-color: var(--photo);
+  border-radius: 5px;
 }
 
 .products .text-wrapper-2 {
@@ -99,8 +100,9 @@
   width: 118px;
   height: 45px;
   background-color: #ffffff;
-  border: 1px solid;
-  border-color: var(--photo);
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: var(--abu-muda);
 }
 
 .products .text-wrapper-3 {
@@ -116,14 +118,23 @@
 }
 
 .products .ellipse {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
   position: absolute;
-  width: 12px;
-  height: 12px;
-  top: 16px;
-  left: 14px;
-  border-radius: 6px;
-  border: 1px solid;
-  border-color: var(--photo);
+  width: 15px;
+  height: 15px;
+  top: 10px;
+  left: 8px;
+  border-radius: 50%;
+  border: 2px solid var(--abu-muda);
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.products .ellipse:checked {
+  background-color: var(--pink);
+  border-color: var(--abu-muda);
 }
 
 .products .living-room {
@@ -140,6 +151,7 @@
   height: 45px;
   background-color: #ffffff;
   border: 1px solid;
+  border-radius: 5px;
   border-color: var(--photo);
 }
 
@@ -157,6 +169,7 @@
   height: 45px;
   background-color: #ffffff;
   border: 1px solid;
+  border-radius: 5px;
   border-color: var(--photo);
 }
 
@@ -182,6 +195,7 @@
   height: 45px;
   background-color: #ffffff;
   border: 1px solid;
+  border-radius: 5px;
   border-color: var(--photo);
 }
 
@@ -198,7 +212,8 @@
   width: 281px;
   height: 493px;
   background-color: #ffffff;
-  border: 1px solid;
+  border: 2px solid;
+  border-radius: 5px;
   border-color: var(--photo);
 }
 
@@ -224,6 +239,7 @@
   height: 45px;
   background-color: #ffffff;
   border: 1px solid;
+  border-radius: 5px;
   border-color: var(--photo);
 }
 
@@ -241,6 +257,7 @@
   height: 45px;
   background-color: #ffffff;
   border: 1px solid;
+  border-radius: 5px;
   border-color: var(--photo);
 }
 
@@ -281,8 +298,9 @@
   width: 281px;
   height: 193px;
   background-color: #ffffff;
-  border: 1px solid;
+  border: 2px solid;
   border-color: var(--photo);
+  border-radius: 5px;
 }
 
 .products .minimum-price {
@@ -295,7 +313,7 @@
 
 .products .overlap-9 {
   position: relative;
-  width: 163px;
+  width: 180px;
   height: 45px;
   background-color: #ffffff;
   border: 1px solid;
@@ -308,22 +326,23 @@
   height: 45px;
   top: -1px;
   left: -1px;
+  font-weight: 100px;
 }
 
 .products .div-wrapper {
   position: relative;
-  width: 41px;
+  width: 45px;
   height: 45px;
-  background-color: var(--photo);
+  background-color: var(--pink);
 }
 
 .products .text-wrapper-4 {
   position: absolute;
   top: 14px;
-  left: 9px;
+  left: 10px;
   font-family: "SF Pro Text-Medium", Helvetica;
   font-weight: 500;
-  color: #000000;
+  color: #ffffff;
   font-size: 14px;
   letter-spacing: 0;
   line-height: normal;
@@ -332,13 +351,17 @@
 .products .text-wrapper-5 {
   position: absolute;
   top: 13px;
-  left: 49px;
+  left: 55px;
+  width: 120px;
   font-family: "SF Pro Text-Medium", Helvetica;
   font-weight: 500;
-  color: var(--photo);
+  color: var(--font);
   font-size: 14px;
   letter-spacing: 0;
   line-height: normal;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
 }
 
 .products .overlap-wrapper {
@@ -371,6 +394,7 @@
   height: 45px;
   background-color: #ffffff;
   border: 1px solid;
+  border-radius: 5px;
   border-color: var(--photo);
 }
 
@@ -735,6 +759,17 @@
   top: 0;
   left: 246px;
   background-color: var(--orange);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.products .carbon-send-alt-wrapper:hover {
+  background-color: var(--pink);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .products .carbon-send-alt {

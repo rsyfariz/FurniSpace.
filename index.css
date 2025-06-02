@@ -917,6 +917,17 @@
   top: 0;
   left: 246px;
   background-color: var(--orange);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.homepage .send-wrapper:hover {
+  background-color: var(--pink);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .homepage .send {
