@@ -787,19 +787,27 @@
 }
 
 .homepage .text-wrapper-19 {
-  flex: 1;
-  border: none;
-  background: transparent;
-  font-size: 18px;
+  position: absolute;
+  width: 144px;
+  top: 18px;
+  left: 66px;
   font-family: "SF Pro Text-Light", Helvetica;
   font-weight: 300;
   color: var(--font);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: normal;
+  border: none;
   outline: none;
+  background-color: var(--abu-muda);
 }
 
 .homepage .searchbar .material-symbols {
+  position: absolute;
   width: 27px;
   height: 27px;
+  top: 16px;
+  left: 27px;
 }
 
 .homepage .profile {
